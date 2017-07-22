@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="restaurantStyles.css" type="text/css" />
+    <style type="text/css">
+        table.style1 {
+            width:100%
+        }
+        th.style1 {
+            width:30px
+        }
+        td.style1 {
+            height:30px;text-align:right
+        }
+        td.style2 {
+            width:20px
+        }
+        td.style3 {
+            width:200px
+        }
+        td.style4 {
+            height:30px;vertical-align:top;text-align:right
+        }
+        td.style5 {
+            height:100px
+        }
+        td.style6 {
+            height:5px
+        }
+        td.right {
+            text-align:right
+        }
+        td.justify {
+            text-align:justify
+        }
+        input.style1 {
+            width:100%
+        }
+        select.style1 {
+            width:100%
+        }
+        textarea.style1 {
+            height:100%;width:100%
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <center><header>Kevin's Restaurant</header></center>
+    </div>
+    <hr>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                        <th><h3><a href="restaurant.html">Home</a></h3></th>
+                        <th class="style1"></th>
+                        <th><h3><a href="menu.html">Menu</a></h3></th>
+                        <th class="style1"></th>
+                        <th><h3><a href="restaurantContact.html">Contact Us</a></h3></th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <hr>
+    </div>
+    <br>
+    <table>
+        <tbody>
+            <tr>
+                <td class="style1">Name:</td>
+                <td class="style2"></td>
+                <td class="style3"><input type="text" name="name" class="style1" /></td>
+            </tr>
+            <tr>
+                <td class="style1">Email:</td>
+                <td></td>
+                <td><input type="text" name="email" class="style1" /></td>
+            </tr>
+            <tr>
+                <td class="style1">Phone:</td>
+                <td></td>
+                <td><input type="text" name="phone" class="style1" /></td>
+            </tr>
+            <tr>
+                <td class="style1">Reason for Inquiry:</td>
+                <td></td>
+                <td><select class="style1">
+                        <option value="catering">Catering</option>
+                        <option value="privateParty">Private Party</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="other">Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="style6"></td>
+            </tr>
+            <tr>
+                <td class="style4">Additional Information:</td>
+                <td></td>
+                <td class="style5"><textarea name="comment"; class="style1" ></textarea></td>
+            </tr>
+            <tr>
+                <td class="style1">Have you been to the restaurant?</td>
+                <td></td>
+                <td><input type="radio" name="licenseType" value="no" checked/>No 
+                    <input type="radio" name="licenseType" value="yes"/>Yes</td>
+            </tr>
+            <tr>
+                <td class="style1">Best days to contact you:</td>
+                <td></td>
+                <td class="justify"><input type="checkbox" name="contactDay" value="M" unchecked/>M &nbsp
+                <input type="checkbox" name="contactDay" value="T" unchecked/>T &nbsp
+                <input type="checkbox" name="contactDay" value="W" unchecked/>W &nbsp
+                <input type="checkbox" name="contactDay" value="Th" unchecked/>Th &nbsp
+                <input type="checkbox" name="contactDay" value="F" unchecked/>F &nbsp
+                </td>
+            </tr>
+            <tr>
+                <td class="style1"></td>
+                <td></td>
+                <td class="right"><input type="submit" name=submit value="Send Request"/></td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <hr>    
+    <div>
+        <center><footer>Street, City, State, Zipcode</footer>
+        <footer>Telephone Number</footer>
+        </center>
+    </div>
+</body>
+</html>
